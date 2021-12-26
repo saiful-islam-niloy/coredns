@@ -2,6 +2,7 @@
 package coremain
 
 import (
+	"example.com/ipLocationService"
 	"flag"
 	"fmt"
 	"log"
@@ -29,6 +30,8 @@ func init() {
 
 	caddy.AppName = coreName
 	caddy.AppVersion = CoreVersion
+
+	ipLocationService.InitDb()
 }
 
 // Run is CoreDNS's main() function.

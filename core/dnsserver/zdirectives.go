@@ -35,6 +35,7 @@ var Directives = []string{
 	"chaos",
 	"loadbalance",
 	"cache",
+	"redis",
 	"rewrite",
 	"header",
 	"dnssec",
