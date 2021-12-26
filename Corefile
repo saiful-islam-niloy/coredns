@@ -1,0 +1,10 @@
+.:1053 {
+    redis {
+        address 127.0.0.1:6379
+        connect_timeout 100
+        read_timeout 100
+    }
+    forward . 8.8.8.8 9.9.9.9
+    log
+    errors
+}
