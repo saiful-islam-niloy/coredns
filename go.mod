@@ -8,9 +8,10 @@ replace example.com/ipLocationService => ../get-ip-region-service
 
 require (
 	example.com/ipLocationService v1.0.0
-	github.com/Azure/azure-sdk-for-go v60.2.0+incompatible
+	github.com/Azure/azure-sdk-for-go v61.6.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.11.23
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.10
+	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
 	github.com/Microsoft/go-winio v0.5.0 // indirect
 	github.com/apparentlymart/go-cidr v1.1.0
 	github.com/aws/aws-sdk-go v1.42.24
